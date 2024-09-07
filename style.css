@@ -1,0 +1,14 @@
+.w-tab-menu {
+    display: flex !important;
+}
+
+.w-tab-link {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+@media (min-width: 1024px) {
+    .w-tab-menu {
+        justify-content: center; /* Para centrar los tabs */
+    }
+}
