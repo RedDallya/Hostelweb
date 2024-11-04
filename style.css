@@ -27,6 +27,7 @@
     font-size: 2em;
     color: #333;
     transition: color 0.3s;
+    margin-left: -80px;
   }
   
   .social-icon:hover {
