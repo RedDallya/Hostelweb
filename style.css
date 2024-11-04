@@ -65,6 +65,7 @@
 .responsive-iframe {
     position: relative;
     width: 100%;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
     height: 0;
     overflow: hidden;
     margin-top: 20px; /* Espaciado superior */
@@ -83,7 +84,7 @@ footer {
     margin-top: 20px; /* Espaciado superior */
     background: #111; /* Color de fondo del footer */
     padding-top: 40px; /* Espaciado interno */
-    
+    margin-bottom:-10px;
 }
 
 .footer-content {
