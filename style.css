@@ -17,7 +17,7 @@
     gap: 10px; /* Espaciado entre los iconos */
     flex-wrap: wrap;
     max-width: 100%; /* Limita el ancho para evitar desbordamiento */
-    padding: 10px;
+    padding-left: 300px;
   }
   
   .social-icon {
@@ -33,12 +33,12 @@
     .social-icons {
       justify-content: center; /* Centra los iconos */
       gap: 5px; /* Ajusta el espacio entre iconos en móviles */
-      margin-right: 190px;
+      padding-left: 300px;
     }
   
     .social-icon {
       font-size: 1.5em; /* Tamaño adecuado para móviles */
-      margin-right: 90px;
+      
     }
   }
   
