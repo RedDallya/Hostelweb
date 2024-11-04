@@ -28,10 +28,7 @@
   
   /* Alineación centrada en pantallas pequeñas */
   @media (max-width: 768px) {
-    .c-flex-space {
-      flex-direction: column;
-      align-items: center;
-    }
+    
   
     .social-icons {
       justify-content: center; /* Centra los iconos */
