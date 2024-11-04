@@ -71,11 +71,14 @@
     margin-top: 20px; /* Añadir margen para separar el iframe del título */
 }
 
+
+
 .responsive-iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    border: none;
+    height: 400px; /* Ajusta según sea necesario */
+    border: 0;
+}
+
+footer {
+    margin-top: 20px; /* Ajusta según sea necesario */
 }
