@@ -1,10 +1,4 @@
-/* Asegura que la sección no se desborde */
-.container, .sec-w-marquee, .mob-rever {
-    width: 100%;
-    overflow: hidden;
-    padding: 0 10px; /* Ajusta el padding para dispositivos móviles */
-    box-sizing: border-box;
-  }
+
   
   .c-flex-space {
     display: flex;
@@ -23,7 +17,7 @@
   .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaciado entre los iconos */
+    gap: 1px; /* Espaciado entre los iconos */
     flex-wrap: wrap;
     padding: 10px;
     width: 100%;
@@ -40,8 +34,8 @@
   }
   
   /* Ajustes para pantallas pequeñas */
-  @media (max-width: 768px) {
-    .c-flex-space {
+  @media (max-width: 1768px) {
+    .container c-flex-space mob-rever {
       flex-direction: column;
       align-items: center;
     }
@@ -59,18 +53,7 @@
   .social-icon:hover {
     color: #0275d8;
   }
-  
-  /* Ajustes para pantallas pequeñas */
-  @media (max-width: 768px) {
-    .c-flex-space {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .social-icon {
-      font-size: 1.5em;
-    }
-  }
+
   
 .w-tab-menu {
     display: flex !important;
