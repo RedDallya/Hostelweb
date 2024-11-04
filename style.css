@@ -33,12 +33,12 @@
     .social-icons {
       justify-content: center; /* Centra los iconos */
       gap: 5px; /* Ajusta el espacio entre iconos en móviles */
-      margin-right: 900px;
+      margin-right: 90px;
     }
   
     .social-icon {
       font-size: 1.5em; /* Tamaño adecuado para móviles */
-      margin-right: 900px;
+      margin-right: 90px;
     }
   }
   
