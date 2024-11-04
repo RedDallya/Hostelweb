@@ -33,7 +33,7 @@
     .social-icons {
       justify-content: center; /* Centra los iconos */
       gap: 5px; /* Ajusta el espacio entre iconos en móviles */
-      margin-right: 90px;
+      margin-right: 190px;
     }
   
     .social-icon {
