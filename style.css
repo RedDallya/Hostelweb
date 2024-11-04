@@ -1,70 +1,32 @@
-/* Reseteo general */
-* {
-    margin: 0;
-    padding: 0;
+/* Asegura que la sección no se desborde */
+.container, .sec-w-marquee, .mob-rever {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 10px; /* Ajusta el padding para dispositivos móviles */
+    box-sizing: border-box; /* Asegura que el padding no agregue más ancho */
+  }
+  
+  .c-flex-space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en pantallas más pequeñas */
+  }
+  
+  .col-sticky--50 {
+    flex: 1 1 100%; /* Ocupa el 100% en pantallas pequeñas */
+    max-width: 300px; /* Ancho máximo en pantallas grandes */
+    text-align: center;
+    padding: 10px;
     box-sizing: border-box;
   }
   
-  body {
-    background: #fcfcfc;
-    font-family: sans-serif;
-  }
-  
-  /* Ajustes de contenedores principales */
-  .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1200px; /* Ancho máximo en pantallas grandes */
-  }
-  
-  h1, h2, p {
-    text-align: center;
-    margin-bottom: 15px;
-    padding: 0 10px;
-  }
-  
-  /* Navegación */
-  .nav__top, .nav__bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav__top img, .nav__bottom img {
-    width: 100%;
-    max-width: 150px; /* Tamaño ajustable */
-  }
-  
-  .nav-link {
-    margin: 10px;
-  }
-  
-  /* Ajuste del iframe de Google Maps para ser responsivo */
-  .responsive-iframe {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
-    height: 0;
-    overflow: hidden;
-  }
-  
-  .responsive-iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-  /* Iconos de redes sociales */
   .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding: 20px;
+    gap: 15px; /* Espaciado entre los iconos */
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
   }
   
   .social-icon {
@@ -74,60 +36,18 @@
   }
   
   .social-icon:hover {
-    color: #0275d8; /* Color al pasar el ratón */
+    color: #0275d8;
   }
   
-  /* Footer */
-  footer {
-    background: #111;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .footer-content h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-  
-  .footer-content p {
-    max-width: 500px;
-    margin: 0 auto 20px;
-    font-size: 0.9em;
-    color: #cacdd2;
-  }
-  
-  .socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  /* Ajustes de responsividad para dispositivos pequeños */
+  /* Ajustes para pantallas pequeñas */
   @media (max-width: 768px) {
-    h1 {
-      font-size: 1.5em;
-    }
-  
-    h2 {
-      font-size: 1.2em;
-    }
-  
-    .nav__top img, .nav__bottom img {
-      max-width: 100px;
+    .c-flex-space {
+      flex-direction: column;
+      align-items: center;
     }
   
     .social-icon {
       font-size: 1.5em;
-    }
-  
-    .footer-content p {
-      font-size: 0.8em;
-    }
-  
-    .container {
-      padding: 10px;
     }
   }
   
