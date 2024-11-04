@@ -10,7 +10,7 @@
     flex: 1 1 100%; /* Ocupa el 100% en pantallas pequeñas */
     max-width: 300px; /* Limita el ancho en pantallas grandes */
     text-align: center;
-    padding: 10px;
+    
     box-sizing: border-box;
   }
   
@@ -19,7 +19,7 @@
     justify-content: center;
     gap: 1px; /* Espaciado entre los iconos */
     flex-wrap: wrap;
-    padding: 10px;
+
     width: 100%;
   }
   
