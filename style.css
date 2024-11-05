@@ -13,7 +13,57 @@
     /* Evita desbordamiento */
 }
 
-
+@media screen and (max-width: 767px) {
+    .nav__col {
+      flex-direction: column; /* Apilar los elementos en una columna */
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .logo__cols {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo__emblem {
+      margin: 10px 0; /* Separar la imagen del logo */
+    }
+  
+    .logo__star2 {
+      width: 15px;
+      height: 15px;
+      margin: 3px;
+    }
+  
+    .kaskady-date {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Pantallas medianas (tabletas) */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav__col {
+      flex-direction: row; /* Volver a la dirección de fila para tabletas */
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo__cols {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .logo__star2 {
+      width: 18px;
+      height: 18px;
+      margin: 4px;
+    }
+  
+    .kaskady-date {
+      font-size: 16px;
+    }
+  }
 
 .social-icon {
     font-size: 2em;
